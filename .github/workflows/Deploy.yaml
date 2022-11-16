@@ -39,7 +39,7 @@ jobs:
           package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/mwo-weather'
 
       - name: Bump versions
-        uses: SiqiLu/dotnet-bump-version@2.1.0
+        uses: SiqiLu/dotnet-bump-version@2.0.0
         with:
             version_files: "*.csproj"
             version_mask: 0.0.1.0
